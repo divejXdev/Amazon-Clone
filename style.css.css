@@ -1,0 +1,328 @@
+@font-face {
+    font-family: amazonfonts;
+    src: url(assets/Fonts/amazon-ember/Amazon\ Ember.ttf);
+}
+body{
+    background: #dadada;
+    overflow-x: hidden;
+}
+main{
+    padding: 0px 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: amazonfonts;
+    box-sizing: border-box;
+}
+/* header{
+    position: fixed;
+} */
+.nav1{
+    width: 100vw;
+    height: 61px;
+    background: linear-gradient(92.41deg, #003d32, #04734b);
+    display: flex;
+}
+
+.nav2{
+    width: 100vw;
+    height: 40px;
+    background-color: #085749;
+    display: flex;
+}
+
+.logo{
+    margin:6px;
+    padding: 8px;
+    width: 105px;
+    border: 2px solid transparent;
+}
+.logo:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.deliver{
+    padding: 8px;
+    margin: 5px;
+    width: 90px;
+}
+.searchbox{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    width: 57vw;
+}
+.searchbox:hover{
+    border:2px solid pink;
+    border-radius: 3,7px;
+}
+.searcharea{
+    height: 39.5px;
+    border-style: none;
+    font-size:0.9rem;
+    width: 100%;
+    margin-left: -5px;
+    padding-left: 15px;
+}
+.searchicon {
+    width: 45px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9176f;
+    padding: 8px;
+    border-top-right-radius: 3.7px;
+    border-bottom-right-radius: 3.7px;
+    cursor: pointer;
+    color: white;
+    margin-left: -4px;
+}
+.searchicon:hover {
+    background-color: #a10254;
+}
+.searchbox select{
+    position: relative;
+    top: -.5px;
+    padding: 6px;
+    width: 55px;
+    height: 40px;
+    border: none;
+    background-color: rgb(205, 205, 205);
+    border-top-left-radius: 3.7px;
+    border-bottom-left-radius: 3.7px;
+    color: rgb(94, 93, 93);
+    cursor: pointer;
+}
+div .lang{
+    padding: 4px;
+    margin: 15px 0px 0px 8px;
+    width: 75px;
+}
+div .acc{
+    padding: 6px;
+    margin: 10px 0px 0px 8px;
+    width: 145px;
+}
+div .return{
+    padding: 6px;
+    margin: 10px 0px 0px 8px;
+    width: 75px;
+}
+div .cart{
+    width: 80px;
+    padding: 6px;
+    margin: 8px 16px 0px 10px;
+}
+.nav2 div .menuicon{
+    color: white;
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.nav2 div{
+    display: flex;
+    color: white;
+    font-family: amazonfonts;
+}
+.nav2 div p{
+    font-family: amazonfonts;
+    padding:8px 8px 2px 1px;
+}
+.deals{
+    padding-top: 8px;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.border{
+    border: 2px solid transparent;
+    font-family: amazonfonts;
+}
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.slider ul{
+    display: flex;
+    list-style: none;
+}
+.slider-img{
+    width: 100%; 
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+.slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 4vh 1vw;
+    color: #000000a5;
+    text-decoration: none;
+    font-size: 70px;
+    cursor: pointer;
+}
+.slider a:hover{
+    background-color: rgba(128, 128, 128, 0.323);
+}
+.slider .control-next{
+    right: 0;
+}
+.first-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -22vw;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    height: 420px;
+    width: 350px;
+    margin:10px auto;
+    /* margin-bottom: 20px; */
+    z-index: 1;
+}
+.cards a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 1px;
+    /* top: 0; */
+}
+.cards a:hover{
+    color: orange;
+}
+.cards .title{
+    margin: 12px 0px 0px 15px ;
+}
+.multiss{
+    width: 290px;
+    margin:19px auto;
+}
+.cards .gifts{
+    width: 310px;
+    margin:30px auto;
+}
+.second-div{
+    background-color: white;
+    width: 96vw;
+    margin: 20px auto;
+    height: 290px;
+}
+.second-div .title {
+    display: flex;
+    padding: 20px 0px 0px 20px;
+    font-size: 1rem;
+}
+.second-div .title a{
+    color: #007185;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+.second-div .images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.third-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-div .cards .title{
+    margin: 12px 0px 0px 15px ;
+}
+.end{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recommend-box{
+    width: 100vw;
+    height: 140px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.recommend-box .signin button{
+    background-image: url(assets/img/signinbtn.png);
+    border: none;
+    width: 230px;
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.76rem;
+}
+.recommend-box .signin p{
+    font-size: 0.7rem;
+    margin-top: 6px;
+}
+.recommend-box .signin p a{
+    text-decoration: none;
+    color: #007185;
+}
+.recommend-box .signin p a:hover{
+    text-decoration:underline;
+    color: orange;
+}
+.foot1 .back{
+    width: 100%;
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 0.8rem;
+}
+.foot1 .back:hover{
+    background-color: #50657f;
+}
+.foot1 .help{
+    width: 100%;
+    height: 380px;
+    background-color: #232f3e;
+    position: absolute;    
+}
+.foot1 .help .boxes{
+    width: 80vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin: 40px auto;
+}
+.foot1 .help .boxes .box ul a{
+    margin: 7px 0px;
+    color:rgb(226, 224, 224);
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.break{
+    position: relative;
+    width: 100vw;
+    background-color: rgb(112, 112, 112);
+    height: 1px;
+    z-index: 4;
+}
